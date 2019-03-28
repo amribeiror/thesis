@@ -34,8 +34,7 @@ pushd ../../bin/ #4
 pushd ../output/ #3
 pushd ./hmmsearch/ #2
 pushd ../../INPUT/proteomes/ #1
-#pushd ../INPUT/query/
-#need to add the last (zero) folder twice, since it will be always rewritten
+##need to add the last (zero) folder twice, since it will be always rewritten
 pushd . #0
 
 dirs -v
